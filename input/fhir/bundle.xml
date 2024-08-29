@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+	<id value="MedicalServicesAuthorizationBundleExample" />
+	<meta>
+		<profile
+			value="http://hl7.org/fhir/us/davinci-pas/StructureDefinition/profile-pas-request-bundle" />
+	</meta>
+	<identifier>
+		<system
+			value="http://example.org/SUBMITTER_TRANSACTION_IDENTIFIER" />
+		<value value="5269367" />
+	</identifier>
+	<type value="collection" />
+	<timestamp value="2005-05-02T11:01:00+05:00" />
+	<entry>
+		<fullUrl
+			value="http://example.org/fhir/Claim/MedicalServicesAuthorizationExample" />
+		<resource>
+			<Claim>
+				<id value="MedicalServicesAuthorizationExample" />
+				<meta>
+					<profile
+						value="http://hl7.org/fhir/us/davinci-pas/StructureDefinition/profile-claim" />
+				</meta>
+				<identifier>
+					<system
+						value="http://example.org/PATIENT_EVENT_TRACE_NUMBER" />
+					<value value="111099" />
+					<assigner>
+						<identifier>
+							<system value="http://example.org/USER_ASSIGNED" />
+							<value value="9012345678" />
+						</identifier>
+					</assigner>
+				</identifier>
+				<status value="active" />
+				<type>
+					<coding>
+						<system
+							value="http://terminology.hl7.org/CodeSystem/claim-type" />
+						<code value="professional" />
+					</coding>
+				</type>
+				<use value="preauthorization" />
+				<patient>
+					<reference value="Patient/SubscriberExample" />
+				</patient>
+				<created value="2005-05-02T11:01:00+05:00" />
+				<insurer>
+					<reference value="Organization/InsurerExample" />
+				</insurer>
+				<provider>
+					<reference value="Organization/UMOExample" />
+				</provider>
+				<priority>
+					<coding>
+						<system
+							value="http://terminology.hl7.org/CodeSystem/processpriority" />
+						<code value="normal" />
+					</coding>
+				</priority>
+				<supportingInfo>
+					<sequence value="1" />
+					<category>
+						<coding>
+							<system
+								value="http://hl7.org/fhir/us/davinci-pas/CodeSystem-PASSupportingInfoType" />
+							<code value="patientEvent" />
+						</coding>
+					</category>
+					<timingDate value="2022-08-01" />
+				</supportingInfo>
+				<insurance>
+					<sequence value="1" />
+					<focal value="true" />
+					<coverage>
+						<reference value="Coverage/InsuranceExample" />
+					</coverage>
+				</insurance>
+				<item>
+					<extension
+						url="http://hl7.org/fhir/us/davinci-pas/StructureDefinition/extension-serviceItemRequestType">
+						<valueCodeableConcept>
+							<coding>
+								<system value="http://codesystem.x12.org/005010/1525" />
+								<code value="IN" />
+								<display value="Initial Medical Services Reservation" />
+							</coding>
+						</valueCodeableConcept>
+					</extension>
+					<extension
+						url="http://hl7.org/fhir/us/davinci-pas/StructureDefinition/extension-certificationType">
+						<valueCodeableConcept>
+							<coding>
+								<system value="http://codesystem.x12.org/005010/1322" />
+								<code value="I" />
+								<display value="Initial" />
+							</coding>
+						</valueCodeableConcept>
+					</extension>
+					<extension
+						url="http://hl7.org/fhir/us/davinci-pas/StructureDefinition/extension-authorizationNumber">
+						<valueString value="1122344" />
+					</extension>
+					<extension
+						url="http://hl7.org/fhir/us/davinci-pas/StructureDefinition/extension-administrationReferenceNumber">
+						<valueString value="33441122" />
+					</extension>
+					<sequence value="1" />
+					<productOrService>
+						<coding>
+							<system value="http://www.ama-assn.org/go/cpt" />
+							<code value="99212" />
+							<display value="Established Office Visit" />
+						</coding>
+					</productOrService>
+					<servicedDate value="2005-05-10" />
+					<locationCodeableConcept>
+						<coding>
+							<system
+								value="https://www.cms.gov/Medicare/Coding/place-of-service-codes/Place_of_Service_Code_Set" />
+							<code value="11" />
+						</coding>
+					</locationCodeableConcept>
+				</item>
+			</Claim>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl
+			value="http://example.org/fhir/Organization/UMOExample" />
+		<resource>
+			<Organization>
+				<id value="UMOExample" />
+				<meta>
+					<profile
+						value="http://hl7.org/fhir/us/davinci-pas/StructureDefinition/profile-requestor" />
+				</meta>
+				<identifier>
+					<system value="http://hl7.org/fhir/sid/us-npi" />
+					<value value="8189991234" />
+				</identifier>
+				<active value="true" />
+				<type>
+					<coding>
+						<system value="https://codesystem.x12.org/005010/98" />
+						<code value="1P" />
+					</coding>
+				</type>
+				<name value="DR. JOE SMITH CORPORATION" />
+				<address>
+					<line value="111 1ST STREET" />
+					<city value="SAN DIEGO" />
+					<state value="CA" />
+					<postalCode value="92101" />
+					<country value="US" />
+				</address>
+			</Organization>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl
+			value="http://example.org/fhir/Organization/InsurerExample" />
+		<resource>
+			<Organization>
+				<id value="InsurerExample" />
+				<meta>
+					<profile
+						value="http://hl7.org/fhir/us/davinci-pas/StructureDefinition/profile-insurer" />
+				</meta>
+				<identifier>
+					<system value="http://hl7.org/fhir/sid/us-npi" />
+					<value value="789312" />
+				</identifier>
+				<active value="true" />
+				<type>
+					<coding>
+						<system value="https://codesystem.x12.org/005010/98" />
+						<code value="PR" />
+					</coding>
+				</type>
+				<name value="MARYLAND CAPITAL INSURANCE COMPANY" />
+			</Organization>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl
+			value="http://example.org/fhir/Coverage/InsuranceExample" />
+		<resource>
+			<Coverage>
+				<id value="InsuranceExample" />
+				<meta>
+					<profile
+						value="http://hl7.org/fhir/us/davinci-pas/StructureDefinition/profile-coverage" />
+				</meta>
+				<status value="active" />
+				<beneficiary>
+					<reference value="Patient/SubscriberExample" />
+				</beneficiary>
+				<payor>
+					<reference value="Organization/InsurerExample" />
+				</payor>
+			</Coverage>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl
+			value="http://example.org/fhir/Patient/SubscriberExample" />
+		<resource>
+			<Patient>
+				<id value="SubscriberExample" />
+				<meta>
+					<profile
+						value="http://hl7.org/fhir/us/davinci-pas/StructureDefinition/profile-subscriber" />
+				</meta>
+				<extension
+					url="http://hl7.org/fhir/us/davinci-pas/StructureDefinition/extension-militaryStatus">
+					<valueCodeableConcept>
+						<coding>
+							<system value="https://codesystem.x12.org/005010/584" />
+							<code value="RU" />
+						</coding>
+					</valueCodeableConcept>
+				</extension>
+				<identifier>
+					<system value="http://example.org/MIN" />
+					<value value="12345678901" />
+				</identifier>
+				<name>
+					<family value="SMITH" />
+					<given value="JOE" />
+				</name>
+			</Patient>
+		</resource>
+	</entry>
+</Bundle>

@@ -1,0 +1,267 @@
+http://snomed.info/sct	SNOMED CT	See Using SNOMED CT with FHIR
+http://www.nlm.nih.gov/research/umls/rxnorm	RxNorm	See Using RxNorm with FHIR
+http://loinc.org	LOINC	See Using LOINC with FHIR
+http://unitsofmeasure.org	UCUM	See Using UCUM with FHIR
+http://ncimeta.nci.nih.gov	NCI	See Using NCI Metathesaurus with FHIR
+http://www.ama-assn.org/go/cpt	AMA CPT	See Using CPT with FHIR
+http://hl7.org/fhir/ndfrt	NDF-RT	See Using NDF-RT with FHIR
+http://fdasis.nlm.nih.gov	UNII	See Using UNII with FHIR
+http://hl7.org/fhir/sid/ndc	NDC/NHRIC	See Using NDC with FHIR
+http://hl7.org/fhir/sid/cvx	CVX	See Using CVX with FHIR
+urn:iso:std:iso:3166	ISO 3166	See Using ISO 3166 Codes with FHIR
+http://hl7.org/fhir/sid/dsm5	DSM-5	Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition
+http://www.nubc.org/patient-discharge	NUBC	National Uniform Billing Committee, manual UB-04, UB form locator 17
+http://www.radlex.org	RadLex	(Includes play book codes)
+ICD-9, ICD-10	WHO	See Using ICD-[x] with FHIR
+http://hl7.org/fhir/sid/icpc-1	ICPC	NHG Table 24 ICPC-1 (NL)
+http://hl7.org/fhir/sid/icpc-1-nl	ICPC	NHG Table 24 ICPC-1 (NL)
+http://hl7.org/fhir/sid/icpc-2	ICPC	NHG Table 24 ICPC-1 (NL)
+http://hl7.org/fhir/sid/icf-nl	ICF	International Classification of Functioning, Disability and Health
+http://terminology.hl7.org/CodeSystem/v2-[X](/v)	Ver2tables	[X] is the 4 digit identifier for a table
+http://terminology.hl7.org/CodeSystem/v3-[X]	HL7 v3	[X] is the code system name
+https://www.gs1.org/gtin	GTIN	Note: GTINs may be used in both Codes and Identifiers
+http://www.whocc.no/atc	WHO	Anatomical Therapeutic Chemical Classification System
+urn:ietf:bcp:47	IETF	This is used for identifying language throughout FHIR.
+urn:ietf:bcp:13	MIME	This is used for identifying the mime type system throughout FHIR.
+urn:iso:std:iso:11073:10101	ISO11073	See Using MDC Codes with FHIR
+http://dicom.nema.org/resources/ontology/DCM	DICOM	The meanings of codes defined in DICOM
+http://hl7.org/fhir/NamingSystem/ca-hc-din	HCDIdNo	A computer-generated eight-digit number assigned by Health Canada to a drug product prior to being marketed in Canada.
+http://hl7.org/fhir/sid/ca-hc-npn	HCNProdNo	A computer-generated number assigned by Health Canada to a natural health product prior to being marketed in Canada.
+http://nucc.org/provider-taxonomy	NUCCProv	The Health Care Provider Taxonomy code is a unique alphanumeric code, ten characters in length.
+http://www.genenames.org	HGNC	Human Gene Nomenclature Committee 
+http://www.ensembl.org	ENSEMBL	Maintained jointly by the European Bioinformatics Institute and Welcome Trust Sanger Institute
+http://www.ncbi.nlm.nih.gov/refseq	RefSeq	National Center for Biotechnology Information (NCBI) Reference Sequences 
+http://www.ncbi.nlm.nih.gov/clinvar	ClinVarID	NCBI central repository for curating pathogenicity of potentially clinically relevant variants
+http://sequenceontology.org	SeqOntology	
+http://varnomen.hgvs.org	HGVS	Human Genome Variation Society 
+http://www.ncbi.nlm.nih.gov/projects/SNP	DBSNP	Single Nucleotide Polymorphism database 
+http://cancer.sanger.ac.uk/	COSMIC	Catalogue Of Somatic Mutations In Cancer 
+cancergenome/projects/cosmic	COSMIC	Catalogue Of Somatic Mutations In Cancer 
+http://www.lrg-sequence.org	LRG	Locus Reference Genomic Sequences 
+http://www.omim.org	OMIM	 Online Mendelian Inheritance in Man 
+http://www.ncbi.nlm.nih.gov/pubmed	PubMed	
+http://www.pharmgkb.org	PHARMGKB	PharmGKB Accession ID
+http://clinicaltrials.gov	Vers2tables	
+http://www.ebi.ac.uk/ipd/imgt/hla	EuBioiInst	
+http://terminology.hl7.org/CodeSystem/FDI-surface	SurfaceCodes	Surface Codes: This value set includes a smattering of FDI tooth surface codes.
+http://terminology.hl7.org/CodeSystem/action-type	ActionType	ActionType: The type of action to be performed.
+http://terminology.hl7.org/CodeSystem/activity-definition-category	ActvyDefCtgy	ActivityDefinitionCategory: High-level categorization of the type of activity.
+http://terminology.hl7.org/CodeSystem/adjudication	AdjValueCd	Adjudication Value Codes: This value set includes a smattering of Adjudication Value codes which includes codes to indicate the amounts eligible under the plan, the amount of benefit, copays etc.
+http://terminology.hl7.org/CodeSystem/adjudication-error	Adj Error Cd	This value set includes a smattering of adjudication codes.
+http://terminology.hl7.org/CodeSystem/adjudication-reason	AdjReasonCd	Adjudication Reason Codes: This value set includes smattering of Adjudication Reason codes.
+http://terminology.hl7.org/CodeSystem/admit-source	AdmitSource	Admit source: This value set defines a set of codes that can be used to indicate from where the patient came in.
+http://terminology.hl7.org/CodeSystem/adverse-event-category	AdvrEvnCtgy	AdverseEventCategory: Overall categorization of the event, e.g. product-related or situational.
+http://terminology.hl7.org/CodeSystem/adverse-event-causality-assess	AdvrAssmnt	AdverseEventCausalityAssessment: Codes for the assessment of whether the entity caused the event.
+http://terminology.hl7.org/CodeSystem/adverse-event-causality-method	AdvrMethod	AdverseEventCausalityMethod: TODO.
+http://terminology.hl7.org/CodeSystem/adverse-event-outcome	AdvrOutcome	AdverseEventOutcome: TODO (and should this be required?).
+http://terminology.hl7.org/CodeSystem/adverse-event-seriousness	AdvrSrous	AdverseEventSeriousness: Overall seriousness of this event for the patient.
+http://terminology.hl7.org/CodeSystem/adverse-event-severity	AdvrSvrity	AdverseEventSeverity: The severity of the adverse event itself, in direct relation to the subject.
+http://terminology.hl7.org/CodeSystem/allerg-intol-substance-exp-risk	AlrgyIntRisk	AllergyIntoleranceSubstanceExposureRisk: The risk of an adverse reaction (allergy or intolerance) for this patient upon exposure to the substance (including pharmaceutical products).
+http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical	AlrgyStsCd	AllergyIntolerance Clinical Status Codes: Preferred value set for AllergyIntolerance Clinical Status.
+http://terminology.hl7.org/CodeSystem/allergyintolerance-verification	AlrgyVerCd	AllergyIntolerance Verification Status Codes: Preferred value set for AllergyIntolerance Verification Status.
+http://terminology.hl7.org/CodeSystem/applicability	BenftCostApp	Benefit cost applicability: Whether the cost applies to in-network or out-of-network providers.
+http://terminology.hl7.org/CodeSystem/appointment-cancellation-reason	ApmntCnlRsn	Appointment cancellation reason: This example value set defines a set of reasons for the cancellation of an appointment.
+http://terminology.hl7.org/CodeSystem/audit-entity-type	AudEvEntyTyp	Audit event entity type: Code for the entity type involved in the audit event.
+http://terminology.hl7.org/CodeSystem/audit-event-type	AudEvnID	Audit Event ID: Event Types for Audit Events - defined by DICOM with some FHIR specific additions.
+http://terminology.hl7.org/CodeSystem/basic-resource-type	BasicRsrcTyp	Basic Resource Types: This value set defines codes for resources not yet supported by (or which will never be supported by) FHIR. Many of the codes listed here will eventually be turned into official resources. However, there is no guarantee that any particular resource will be created nor that the scope will be exactly as defined by the codes presented here. Codes in this set will be deprecated if/when formal resources are defined that encompass these concepts.
+http://terminology.hl7.org/CodeSystem/benefit-network	NetworkTypCd	Network Type Codes: This value set includes a smattering of Network type codes.
+http://terminology.hl7.org/CodeSystem/benefit-term	BenfitTermCd	Benefit Term Codes: This value set includes a smattering of Benefit Term codes.
+http://terminology.hl7.org/CodeSystem/benefit-type	BenfitTypeCd	Benefit Type Codes: This value set includes a smattering of Benefit type codes.
+http://terminology.hl7.org/CodeSystem/benefit-unit	UnitTypeCd	Unit Type Codes: This value set includes a smattering of Unit type codes.
+http://terminology.hl7.org/CodeSystem/can-push-updates	canpshupdate	Can-push-updates: Ability of the primary source to push updates/alerts
+http://terminology.hl7.org/CodeSystem/catalogType	CatalogType	CatalogType: The type of catalog.
+http://terminology.hl7.org/CodeSystem/certainty-subcomponent-rating	CertnyRating	CertaintySubcomponentRating: The quality rating of the subcomponent of a quality of evidence rating.
+http://terminology.hl7.org/CodeSystem/certainty-subcomponent-type	CertnyType	CertaintySubcomponentType: The subcomponent classification of quality of evidence rating systems.
+http://terminology.hl7.org/CodeSystem/chargeitem-billingcodes	ChargItemCde	ChargeItemCode: Example set of codes that can be used for billing purposes.
+http://terminology.hl7.org/CodeSystem/choice-list-orientation	ChceListOrie	ChoiceListOrientation: Direction in which lists of possible answers should be displayed.
+http://terminology.hl7.org/CodeSystem/chromosome-human	chrom-human	chromosome-human: Chromosome number for human.
+http://terminology.hl7.org/CodeSystem/claim-exception	ExceptionCd	Exception Codes: This value set includes sample Exception codes.
+http://terminology.hl7.org/CodeSystem/claim-type	ClaimTypeCd	Claim Type Codes: This value set includes Claim Type codes.
+http://terminology.hl7.org/CodeSystem/claimcareteamrole	ClaimRoleCd	Claim Care Team Role Codes: This value set includes sample Claim Care Team Role codes.
+http://terminology.hl7.org/CodeSystem/claiminformationcategory	ClaimCtgyCd	Claim Information Category Codes: This value set includes sample Information Category codes.
+http://terminology.hl7.org/CodeSystem/codesystem-altcode-kind	AltCodeKind	AlternativeCodeKind: Indicates the type of use for which the code is defined.
+http://terminology.hl7.org/CodeSystem/common-tags	CommonTags	Common Tags: Common Tag Codes defined by FHIR project
+http://terminology.hl7.org/CodeSystem/communication-category	CommCtgy	CommunicationCategory: Codes for general categories of communications such as alerts, instructions, etc.
+http://terminology.hl7.org/CodeSystem/communication-not-done-reason	CommNotRsn	CommunicationNotDoneReason: Codes for the reason why a communication did not happen.
+http://terminology.hl7.org/CodeSystem/communication-topic	CommTopic	CommunicationTopic: Codes describing the purpose or content of the communication.
+http://terminology.hl7.org/CodeSystem/composite-measure-scoring	CompMsreScor	CompositeMeasureScoring: The composite scoring method of the measure.
+http://terminology.hl7.org/CodeSystem/composition-altcode-kind	AltCodeKind	AlternativeCodeKind: Indicates the type of use for which the code is defined.
+http://terminology.hl7.org/CodeSystem/condition-category	CondCtgyCd	Condition Category Codes: Preferred value set for Condition Categories.
+http://terminology.hl7.org/CodeSystem/condition-clinical	CondStatusCd	Condition Clinical Status Codes: Preferred value set for Condition Clinical Status.
+http://terminology.hl7.org/CodeSystem/condition-state	CondState	ConditionState: Enumeration indicating whether the condition is currently active, inactive, or has been resolved.
+http://terminology.hl7.org/CodeSystem/condition-ver-status	CondVerSts	ConditionVerificationStatus: The verification status to support or decline the clinical status of the condition or diagnosis.
+http://terminology.hl7.org/CodeSystem/conformance-expectation	CnfrmnceExpt	ConformanceExpectation: Indicates the degree of adherence to a specified behavior or capability expected for a system to be deemed conformant with a specification.
+http://terminology.hl7.org/CodeSystem/consentaction	CsntActonCd	Consent Action Codes: This value set includes sample Consent Action codes.
+http://terminology.hl7.org/CodeSystem/consentcategorycodes	CsntCtgyCd	Consent Category Codes: This value set includes sample Consent Directive Type codes, including several consent directive related LOINC codes; HL7 VALUE SET: ActConsentType(2.16.840.1.113883.1.11.19897); examples of US realm consent directive legal descriptions and references to online and/or downloadable forms such as the SSA-827 Authorization to Disclose Information to the Social Security Administration; and other anticipated consent directives related to participation in a clinical trial, medical procedures, reproductive procedures; health care directive (Living Will); advance directive, do not resuscitate (DNR); Physician Orders for Life-Sustaining Treatment (POLST)
+http://terminology.hl7.org/CodeSystem/consentpolicycodes	CsntPolRulCd	Consent PolicyRule Codes: This value set includes sample Regulatory consent policy types from the US and other regions.
+http://terminology.hl7.org/CodeSystem/consentscope	CsntScopeCd	Consent Scope Codes: This value set includes the four Consent scope codes.
+http://terminology.hl7.org/CodeSystem/contactentity-type	ContactType	Contact entity type: This example value set defines a set of codes that can be used to indicate the purpose for which you would contact a contact party.
+http://terminology.hl7.org/CodeSystem/container-cap	ContainerCap	ContainerCap: Color of the container cap.
+http://terminology.hl7.org/CodeSystem/contract-content-derivative	CtrtCtntCd	Contract Content Derivation Codes: This is an example set of Content Derivative type codes, which represent the minimal content derived from the basal information source at a specific stage in its lifecycle, which is sufficient to manage that source information, for example, in a repository, registry, processes and workflows, for making access control decisions, and providing query responses.
+http://terminology.hl7.org/CodeSystem/contract-data-meaning	CtrtMeaning	ContractDataMeaning: How a resource reference is interpreted when evaluating contract offers.
+http://terminology.hl7.org/CodeSystem/contract-type	CtrtTypeCd	Contract Type Codes: This value set includes sample Contract Type codes.
+http://terminology.hl7.org/CodeSystem/contractaction	CtrtActionCd	Contract Action Codes: This value set includes sample Contract Action codes.
+http://terminology.hl7.org/CodeSystem/contractactorrole	CtrtRoleCd	Contract Actor Role Codes: This value set includes sample Contract Actor Role codes.
+http://terminology.hl7.org/CodeSystem/contractsignertypecodes	CtrtTypeCd	Contract Signer Type Codes: This value set includes sample Contract Signer Type codes.
+http://terminology.hl7.org/CodeSystem/contractsubtypecodes	CtrtSubtypCd	Contract Subtype Codes: This value set includes sample Contract Subtype codes.
+http://terminology.hl7.org/CodeSystem/contracttermsubtypecodes	CtrtTrmSubCd	Contract Term Subtype Codes: This value set includes sample Contract Term SubType codes.
+http://terminology.hl7.org/CodeSystem/contracttermtypecodes	CtrtTrmTypCd	Contract Term Type Codes: This value set includes sample Contract Term Type codes.
+http://terminology.hl7.org/CodeSystem/copy-number-event	CopyNoEvn	CopyNumberEvent: Copy Number Event.
+http://terminology.hl7.org/CodeSystem/coverage-class	CvgeClassCd	Coverage Class Codes: This value set includes Coverage Class codes.
+http://terminology.hl7.org/CodeSystem/coverage-copay-type	CvgeTypeCd	Coverage Copay Type Codes: This value set includes sample Coverage Copayment Type codes.
+http://terminology.hl7.org/CodeSystem/coverage-selfpay	CvgeSelfCd	Coverage SelfPay Codes: This value set includes Coverage SelfPay codes.
+http://terminology.hl7.org/CodeSystem/coverageeligibilityresponse-ex-auth-support	CvgeSuppCd	CoverageEligibilityResponse Auth Support Codes: This value set includes CoverageEligibilityResponse Auth Support codes.
+http://terminology.hl7.org/CodeSystem/data-absent-reason	DataAbstRsn	DataAbsentReason: Used to specify why the normally expected content of the data element is missing.
+http://terminology.hl7.org/CodeSystem/definition-status	DefStatus	DefinitionStatus: Codes identifying the lifecycle stage of a definition.
+http://terminology.hl7.org/CodeSystem/definition-topic	DefTopic	DefinitionTopic: High-level categorization of the definition, used for searching, sorting, and filtering.
+http://terminology.hl7.org/CodeSystem/definition-use	DefUseCd	Structure Definition Use Codes / Keywords: Structure Definition Use Codes / Keywords
+http://terminology.hl7.org/CodeSystem/device-status-reason	FHIRStsRsn	FHIRDeviceStatusReason: The availability status reason of the device.
+http://terminology.hl7.org/CodeSystem/diagnosis-role	DiagnsisRole	This value set defines a set of codes that can be used to express the role of a diagnosis on the Encounter or EpisodeOfCare record.
+http://terminology.hl7.org/CodeSystem/dicom-audit-lifecycle	DICOM	Attached is vocabulary for the record lifecycle events, as per DICOM Audit Message,
+http://terminology.hl7.org/CodeSystem/diet	Diet	Diet: This value set defines a set of codes that can be used to indicate dietary preferences or restrictions a patient may have.
+http://terminology.hl7.org/CodeSystem/discharge-disposition	DischrgDisp	Discharge disposition: This value set defines a set of codes that can be used to where the patient left the hospital.
+http://terminology.hl7.org/CodeSystem/dose-rate-type	DoseRateTyp	DoseAndRateType: The kind of dose or rate specified.
+http://terminology.hl7.org/CodeSystem/effect-estimate-type	EffEstType	EffectEstimateType: Whether the effect estimate is an absolute effect estimate (absolute difference) or a relative effect estimate (relative difference), and the specific type of effect estimate (eg relative risk or median difference).
+http://terminology.hl7.org/CodeSystem/encounter-special-arrangements	SpecilArgmnt	Special arrangements: This value set defines a set of codes that can be used to indicate the kinds of special arrangements in place for a patients visit.
+http://terminology.hl7.org/CodeSystem/encounter-type	EncounterTyp	Encounter type: This example value set defines a set of codes that can be used to indicate the type of encounter: a specific code indicating type of service provided.
+http://terminology.hl7.org/CodeSystem/endpoint-connection-type	EndPntConTyp	Endpoint Connection Type: This is an example value set defined by the FHIR project, that could be used to represent possible connection type profile values.
+http://terminology.hl7.org/CodeSystem/endpoint-payload-type	EndPnPayload	Endpoint Payload Type: This is an example value set defined by the FHIR project, that could be used to represent possible payload document types.
+http://terminology.hl7.org/CodeSystem/entformula-additive	EnteralTypCd	Enteral Formula Additive Type Code: EnteralFormulaAdditiveType: Codes for the type of modular component such as protein, carbohydrate or fiber to be provided in addition to or mixed with the base formula. This value set is provided as a suggestive example.
+http://terminology.hl7.org/CodeSystem/episodeofcare-type	EpisodeOfCar	Episode of care type: This example value set defines a set of codes that can be used to express the usage type of an EpisodeOfCare record.
+http://terminology.hl7.org/CodeSystem/evidence-quality	QualityOfEvi	QualityOfEvidenceRating: A rating system that describes the quality of evidence such as the GRADE, DynaMed, or Oxford CEBM systems.
+http://terminology.hl7.org/CodeSystem/evidence-variant-state	EviState	EvidenceVariantState: Used for results by exposure in variant states such as low-risk, medium-risk and high-risk states.
+http://terminology.hl7.org/CodeSystem/ex-USCLS	USCLSCd	USCLS Codes: This value set includes a smattering of USCLS codes.
+http://terminology.hl7.org/CodeSystem/ex-benefitcategory	BenfitCtyCd	Benefit Category Codes: This value set includes examples of Benefit Category codes.
+http://terminology.hl7.org/CodeSystem/ex-claimsubtype	ExSubTypeCd	Example Claim SubType Codes: This value set includes sample Claim SubType codes which are used to distinguish the claim types for example within type institutional there may be subtypes for emergency services, bed stay and transportation.
+http://terminology.hl7.org/CodeSystem/ex-coverage-financial-exception	ExCvgeExcCd	Example Coverage Financial Exception Codes: This value set includes Example Coverage Financial Exception Codes.
+http://terminology.hl7.org/CodeSystem/ex-diagnosis-on-admission	ExAdmCd	Example Diagnosis on Admission Codes: This value set includes example Diagnosis on Admission codes.
+http://terminology.hl7.org/CodeSystem/ex-diagnosisrelatedgroup	ExRelGrpCd	Example Diagnosis Related Group Codes: This value set includes example Diagnosis Related Group codes.
+http://terminology.hl7.org/CodeSystem/ex-diagnosistype	ExTypeCd	Example Diagnosis Type Codes: This value set includes example Diagnosis Type codes.
+http://terminology.hl7.org/CodeSystem/ex-payee-resource-type	ClaimRsrcTyp	ClaimPayeeResourceType: The type of Claim payee Resource.
+http://terminology.hl7.org/CodeSystem/ex-paymenttype	ExPymtCd	Example Payment Type Codes: This value set includes example Payment Type codes.
+http://terminology.hl7.org/CodeSystem/ex-procedure-type	ExProcCd	Example Procedure Type Codes: This value set includes example Procedure Type codes.
+http://terminology.hl7.org/CodeSystem/ex-programcode	ExReasonCd	Example Program Reason Codes: This value set includes sample Program Reason Span codes.
+http://terminology.hl7.org/CodeSystem/ex-providerqualification	ExProvQualCd	Example Provider Qualification Codes: This value set includes sample Provider Qualification codes.
+http://terminology.hl7.org/CodeSystem/ex-relatedclaimrelationship	ExshipCd	Example Related Claim Relationship Codes: This value set includes sample Related Claim Relationship codes.
+http://terminology.hl7.org/CodeSystem/ex-revenue-center	ExCenterCd	Example Revenue Center Codes: This value set includes sample Revenue Center codes.
+http://terminology.hl7.org/CodeSystem/ex-serviceplace	ExPlaceCd	Example Service Place Codes: This value set includes a smattering of Service Place codes.
+http://terminology.hl7.org/CodeSystem/ex-tooth	OralSiteCd	Oral Site Codes: This value set includes a smattering of FDI oral site codes.
+http://terminology.hl7.org/CodeSystem/ex-visionprescriptionproduct	ExProductCd	Example Vision Prescription Product Codes: This value set includes a smattering of Prescription Product codes.
+http://terminology.hl7.org/CodeSystem/expansion-parameter-source	ExpSource	ExpansionParameterSource: Declares what the source of a parameter is.
+http://terminology.hl7.org/CodeSystem/expansion-processing-rule	ExpRule	ExpansionProcessingRule: Defines how concepts are processed into the expansion when it's for UI presentation.
+http://terminology.hl7.org/CodeSystem/extra-security-role-type	SecRoleType	This CodeSystem contains Additional FHIR-defined Security Role types not defined elsewhere
+http://terminology.hl7.org/CodeSystem/failure-action	failureact	Failure-action: The result if validation fails
+http://terminology.hl7.org/CodeSystem/financialtaskcode	FinTaskCd	Financial Task Codes: This value set includes Financial Task codes.
+http://terminology.hl7.org/CodeSystem/financialtaskinputtype	FinTaskTypCd	Financial Task Input Type Codes: This value set includes Financial Task Input Type codes.
+http://terminology.hl7.org/CodeSystem/flag-category	FlagCtgy	Flag Category: Example list of general categories for flagged issues. (Not complete or necessarily appropriate.)
+http://terminology.hl7.org/CodeSystem/forms-codes	Form Cd	This value set includes a sample set of Forms codes.
+http://terminology.hl7.org/CodeSystem/fundsreserve	FundsResCd	This value set includes sample funds reservation type codes.
+http://terminology.hl7.org/CodeSystem/goal-acceptance-status	GoalAccptSts	GoalAcceptanceStatus: Codes indicating whether the goal has been accepted by a stakeholder.
+http://terminology.hl7.org/CodeSystem/goal-achievement	GoalAchSts	Goal achievement status: Describes the progression, or lack thereof, towards the goal against the target.
+http://terminology.hl7.org/CodeSystem/goal-category	GoalCtgy	Goal category: Example codes for grouping goals to use for filtering or presentation.
+http://terminology.hl7.org/CodeSystem/goal-priority	GoalPrior	Goal priority: Indicates the level of importance associated with reaching or sustaining a goal.
+http://terminology.hl7.org/CodeSystem/goal-relationship-type	GoalRelTyp	GoalRelationshipType: Types of relationships between two goals.
+http://terminology.hl7.org/CodeSystem/handling-condition	HandlingSet	HandlingConditionSet: Set of handling instructions prior testing of the specimen.
+http://terminology.hl7.org/CodeSystem/history-absent-reason	FamilyAbsRsn	FamilyHistoryAbsentReason: Codes describing the reason why a family member's history is not available.
+http://terminology.hl7.org/CodeSystem/hl7-work-group	HL7Workgroup	HL7Workgroup: An HL7 administrative unit that owns artifacts in the FHIR specification.
+http://terminology.hl7.org/CodeSystem/immunization-evaluation-dose-status	ImmnStatusCd	Immunization Evaluation Dose Status codes: The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the validity of a dose relative to a particular recommended schedule. This value set is provided as a suggestive example.
+http://terminology.hl7.org/CodeSystem/immunization-evaluation-dose-status-reason	ImmnReasonCd	Immunization Evaluation Dose Status Reason codes: The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the reason why an administered dose has been assigned a particular status. Often, this reason describes why a dose is considered invalid. This value set is provided as a suggestive example.
+http://terminology.hl7.org/CodeSystem/immunization-funding-source	ImmnFundgSrc	Immunization Funding Source: The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the source of the vaccine administered. This value set is provided as a suggestive example.
+http://terminology.hl7.org/CodeSystem/immunization-origin	ImmnOriginCd	Immunization Origin Codes: The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the source of the data when the report of the immunization event is not based on information from the person, entity or organization who administered the vaccine. This value set is provided as a suggestive example.
+http://terminology.hl7.org/CodeSystem/immunization-program-eligibility	ImmnElgblty	Immunization Program Eligibility: The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the patient's eligibility for a vaccination program. This value set is provided as a suggestive example.
+http://terminology.hl7.org/CodeSystem/immunization-recommendation-status	ImmnRecStsCd	Immunization Recommendation Status Codes: The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the status of the patient towards perceived immunity against a vaccine preventable disease. This value set is provided as a suggestive example.
+http://terminology.hl7.org/CodeSystem/immunization-subpotent-reason	ImmnpotenRsn	Immunization Subpotent Reason: The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the reason why a dose is considered to be subpotent. This value set is provided as a suggestive example.
+http://terminology.hl7.org/CodeSystem/implantStatus	ImplantSts	Implant Status: A set codes that define the functional status of an implanted device.
+http://terminology.hl7.org/CodeSystem/insurance-plan-type	InsPlanType	Insurance plan type: This example value set defines a set of codes that can be used to indicate a type of insurance plan.
+http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle	ISO21089	Attached is vocabulary for the 27 record lifecycle events, as per ISO TS 21089-2017, Health Informatics - Trusted End-to-End Information Flows, Section 3, Terms and Definitions (2017, at ISO Central Secretariat, passed ballot and ready for publication). This will also be included in the FHIR EHR Record Lifecycle Event Implementation Guide, balloted and (to be) published with FHIR STU-3.
+http://terminology.hl7.org/CodeSystem/library-type	LibraryType	LibraryType: The type of knowledge asset this library contains.
+http://terminology.hl7.org/CodeSystem/list-empty-reason	ListEmptyRsn	List Empty Reasons: General reasons for a list to be empty. Reasons are either related to a summary list (i.e. problem or medication list) or to a workflow related list (i.e. consultation list).
+http://terminology.hl7.org/CodeSystem/list-example-use-codes	ExUseCdList	Example Use Codes for List: Example use codes for the List resource - typical kinds of use.
+http://terminology.hl7.org/CodeSystem/list-order	ListOrderCd	List Order Codes: Base values for the order of the items in a list resource.
+http://terminology.hl7.org/CodeSystem/location-physical-type	LocType	Location type: This example value set defines a set of codes that can be used to indicate the physical form of the Location.
+http://terminology.hl7.org/CodeSystem/match-grade	MatchGrade	MatchGrade: A Master Patient Index (MPI) assessment of whether a candidate patient record is a match or not.
+http://terminology.hl7.org/CodeSystem/measure-data-usage	MsrDataUsage	MeasureDataUsage: The intended usage for supplemental data elements in the measure.
+http://terminology.hl7.org/CodeSystem/measure-improvement-notation	MsrNotation	MeasureImprovementNotation: Observation values that indicate what change in a measurement value or score is indicative of an improvement in the measured item or scored issue.
+http://terminology.hl7.org/CodeSystem/measure-population	MsrType	MeasurePopulationType: The type of population.
+http://terminology.hl7.org/CodeSystem/measure-scoring	MsrScoring	MeasureScoring: The scoring type of the measure.
+http://terminology.hl7.org/CodeSystem/measure-type	MsrType	MeasureType: The type of measure (includes codes from 2.16.840.1.113883.1.11.20368).
+http://terminology.hl7.org/CodeSystem/med-admin-perform-function	MediFuncCd	Medication administration performer function codes: MedicationAdministration Performer Function Codes
+http://terminology.hl7.org/CodeSystem/media-modality	MediaModalty	Media Modality: Detailed information about the type of the image - its kind, purpose, or the kind of equipment used to generate it.
+http://terminology.hl7.org/CodeSystem/media-type	MediaType	Media Type: Codes for high level media categories.
+http://terminology.hl7.org/CodeSystem/medication-admin-category	MediAdmCtgy	Medication administration category codes: MedicationAdministration Category Codes
+http://terminology.hl7.org/CodeSystem/medication-admin-status	MediAStsCd	Medication administration status codes: MedicationAdministration Status Codes
+http://terminology.hl7.org/CodeSystem/medication-statement-category	MediCtgyCd	Medication usage category codes: Medication Status Codes
+http://terminology.hl7.org/CodeSystem/medicationdispense-performer-function	MediPerFncCd	Medication dispense performer function codes: MedicationDispense Performer Function Codes
+http://terminology.hl7.org/CodeSystem/medicationdispense-status	MediDspStsCd	Medication dispense status codes: MedicationDispense Status Codes
+http://terminology.hl7.org/CodeSystem/medicationknowledge-characteristic	MediKnwCd	Medication knowledge characteristic codes: MedicationKnowledge Characteristic Codes
+http://terminology.hl7.org/CodeSystem/medicationknowledge-package-type	MediKnwPkgCd	Medication knowledge package type codes: MedicationKnowledge Package Type Codes
+http://terminology.hl7.org/CodeSystem/medicationknowledge-status	MediKnwStsCd	Medication knowledge status codes: MedicationKnowledge Status Codes
+http://terminology.hl7.org/CodeSystem/medicationrequest-category	MediRqCtgyCd	Medication request category codes: MedicationRequest Category Codes
+http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy	MediReqThrpy	Medication request course of therapy codes: MedicationRequest Course of Therapy Codes
+http://terminology.hl7.org/CodeSystem/medicationrequest-status-reason	MediReqRsnCd	Medication request status reason codes: MedicationRequest Status Reason Codes
+http://terminology.hl7.org/CodeSystem/message-reasons-encounter	ExMsgRsnCd	Example Message Reason Codes: Example Message Reasons. These are the set of codes that might be used an updating an encounter using admin-update.
+http://terminology.hl7.org/CodeSystem/message-transport	MsgTransport	MessageTransport: The protocol used for message transport.
+http://terminology.hl7.org/CodeSystem/missingtoothreason	MissingRsnCd	Missing Tooth Reason Codes: This value set includes sample Missing Tooth Reason codes.
+http://terminology.hl7.org/CodeSystem/modifiers	ModfierTypCd	Modifier type Codes: This value set includes sample Modifier type codes.
+http://terminology.hl7.org/CodeSystem/name-assembly-order	HumanNameOrd	HumanNameAssemblyOrder: A code that represents the preferred display order of the components of a human name.
+http://terminology.hl7.org/CodeSystem/need	need	Need: The frequency with which the target must be validated
+http://terminology.hl7.org/CodeSystem/object-role	AudtEvnEnRol	AuditEventEntityRole: Code representing the role the entity played in the audit event.
+http://terminology.hl7.org/CodeSystem/observation-category	ObsrvCtgyCd	Observation Category Codes: Observation Category codes.
+http://terminology.hl7.org/CodeSystem/observation-statistics	StatisticsCd	StatisticsCode: The statistical operation parameter -"statistic" codes.
+http://terminology.hl7.org/CodeSystem/operation-outcome	OpOutcomeCd	Operation Outcome Codes: Operation Outcome codes used by FHIR test servers (see Implementation file translations.xml)
+http://terminology.hl7.org/CodeSystem/organization-type	OrgType	Organization type: This example value set defines a set of codes that can be used to indicate a type of organization.
+http://terminology.hl7.org/CodeSystem/parameter-group	DevDefGroup	DeviceDefinitionParameterGroup: Codes identifying groupings of parameters; e.g. Cardiovascular.
+http://terminology.hl7.org/CodeSystem/participant-type	PartipantTyp	Participant type: This value set defines a set of codes that can be used to indicate how an individual participates in an encounter.
+http://terminology.hl7.org/CodeSystem/payeetype	ClaimTypeCd	This value set includes sample Payee Type codes.
+http://terminology.hl7.org/CodeSystem/payment-adjustment-reason	PymtAdjstCd	Payment Adjustment Reason Codes: This value set includes smattering of Payment Adjustment Reason codes.
+http://terminology.hl7.org/CodeSystem/payment-type	PymtTypeCd	Payment Type Codes: This value set includes sample Payment Type codes.
+http://terminology.hl7.org/CodeSystem/paymentstatus	PymtStatusCd	Payment Status Codes: This value set includes a sample set of Payment Status codes.
+http://terminology.hl7.org/CodeSystem/plan-definition-type	PlanDefType	PlanDefinitionType: The type of PlanDefinition.
+http://terminology.hl7.org/CodeSystem/practitioner-role	PractRole	Practitioner role: This example value set defines a set of codes that can be used to indicate the role of a Practitioner.
+http://terminology.hl7.org/CodeSystem/precision-estimate-type	PrecEstype	PrecisionEstimateType: Method of reporting variability of estimates, such as confidence intervals, interquartile range or standard deviation.
+http://terminology.hl7.org/CodeSystem/primary-source-type	primary-type	Primary-source-type: Type of the validation primary source
+http://terminology.hl7.org/CodeSystem/processpriority	ProcPriorCd	Process Priority Codes: This value set includes the financial processing priority codes.
+http://terminology.hl7.org/CodeSystem/program	Program	Program: This value set defines an example set of codes that could be can be used to classify groupings of service-types/specialties.
+http://terminology.hl7.org/CodeSystem/provenance-participant-type	ParttTyp	Provenance participant type: The type of participation a provenance participant.
+http://terminology.hl7.org/CodeSystem/push-type-available	push-type	Push-type-available: Type of alerts/updates the primary source can send
+http://terminology.hl7.org/CodeSystem/question-max-occurs	MaxOccurs	MaxOccurs: Flags an element as having unlimited repetitions.
+http://terminology.hl7.org/CodeSystem/questionnaire-usage-mode	QuestItemUsg	QuestionnaireItemUsageMode: Identifies the modes of usage of a questionnaire that should enable a particular questionnaire item.
+http://terminology.hl7.org/CodeSystem/reaction-event-certainty	AlgyIntCrtny	AllergyIntoleranceCertainty: Statement about the degree of clinical certainty that a specific substance was the cause of the manifestation in a reaction event.
+http://terminology.hl7.org/CodeSystem/reason-medication-given	RsnMediGvnCd	Reason Medication Given Codes: This value set is provided as an example. The value set to instantiate this attribute should be drawn from a robust terminology code system that consists of or contains concepts to support the medication process.
+http://terminology.hl7.org/CodeSystem/recommendation-strength	StrngtOfRat	StrengthOfRecommendationRating: A rating system that describes the strength of the recommendation, such as the GRADE, DynaMed, or HGPS systems.
+http://terminology.hl7.org/CodeSystem/referencerange-meaning	ObRangMeanCd	Observation Reference Range Meaning Codes: This value set defines a set of codes that can be used to indicate the meaning/use of a reference range for a particular target population.
+http://terminology.hl7.org/CodeSystem/rejection-criteria	RejectCriter	RejectionCriterion: Criterion for rejection of the specimen by laboratory.
+http://terminology.hl7.org/CodeSystem/research-study-objective-type	RsrhStObjTyp	ResearchStudyObjectiveType: Codes for the kind of study objective.
+http://terminology.hl7.org/CodeSystem/research-study-phase	RsrhStPhase	ResearchStudyPhase: Codes for the stage in the progression of a therapy from initial experimental use in humans in clinical trials to post-market evaluation.
+http://terminology.hl7.org/CodeSystem/research-study-prim-purp-type	RsrhStPrpTyp	ResearchStudyPrimaryPurposeType: Codes for the main intent of the study.
+http://terminology.hl7.org/CodeSystem/research-study-reason-stopped	RsrhStRsnStp	ResearchStudyReasonStopped: Codes for why the study ended prematurely.
+http://terminology.hl7.org/CodeSystem/resource-security-category	RsrcSecCtgy	ResourceSecurityCategory: Provides general guidance around the kind of access Control to Read, Search, Create, Update, or Delete a resource.
+http://terminology.hl7.org/CodeSystem/resource-type-link	PayeeRsrcTyp	PayeeResourceType: The type of payee Resource.
+http://terminology.hl7.org/CodeSystem/restful-security-service	RestSecurity	RestfulSecurityService: Types of security services used with FHIR.
+http://terminology.hl7.org/CodeSystem/risk-estimate-type	RiskEstTyp	RiskEstimateType: Whether the risk estimate is dichotomous, continuous or qualitative and the specific type of risk estimate (eg proportion or median).
+http://terminology.hl7.org/CodeSystem/risk-probability	RiskProb	Risk Probability: Codes representing the likelihood of a particular outcome in a risk assessment.
+http://terminology.hl7.org/CodeSystem/security-source-type	AudEvnSource	Audit Event Source Type: The type of process where the audit event originated from.
+http://terminology.hl7.org/CodeSystem/service-category	ServiceCtgy	Service category: This value set defines an example set of codes that can be used to classify groupings of service-types/specialties.
+http://terminology.hl7.org/CodeSystem/service-provision-conditions	ServiceProv	ServiceProvisionConditions: The code(s) that detail the conditions under which the healthcare service is available/offered.
+http://terminology.hl7.org/CodeSystem/service-referral-method	RefrrlMethod	ReferralMethod: The methods of referral can be used when referring to a specific HealthCareService resource.
+http://terminology.hl7.org/CodeSystem/service-type	ServiceType	Service type: This value set defines an example set of codes of service-types.
+http://terminology.hl7.org/CodeSystem/smart-capabilities	SmartCapabil	SmartCapabilities: Codes that define what the server is capable of.
+http://terminology.hl7.org/CodeSystem/special-values	SpecialValue	SpecialValues: A set of generally useful codes defined so they can be included in value sets.
+http://terminology.hl7.org/CodeSystem/standards-status	StandardSts	StandardsStatus: HL7 Ballot/Standards status of artifact.
+http://terminology.hl7.org/CodeSystem/study-type	StudyType	StudyType: Types of research studies (types of research methods).
+http://terminology.hl7.org/CodeSystem/subscriber-relationship	SubsRelCd	SubscriberPolicyholder Relationship Codes: This value set includes codes for the relationship between the Subscriber and the Beneficiary (insured/covered party/patient).
+http://terminology.hl7.org/CodeSystem/subscription-tag	SubscripTag	SubscriptionTag: Tags to put on a resource after subscriptions have been sent.
+http://terminology.hl7.org/CodeSystem/substance-category	SubsCtgyCd	Substance Category Codes: Substance category codes
+http://terminology.hl7.org/CodeSystem/supply-item-type	SupplyItmTyp	Supply Item Type: This value sets refers to a specific supply item.
+http://terminology.hl7.org/CodeSystem/supply-kind	SupplyType	Supply Type: This value sets refers to a Category of supply.
+http://terminology.hl7.org/CodeSystem/supplyrequest-reason	SupplyReqRsn	SupplyRequestReason: The reason why the supply item was requested.
+http://terminology.hl7.org/CodeSystem/synthesis-type	SynthesisTyp	SynthesisType: Types of combining results from a body of evidence (eg. summary data meta-analysis).
+http://terminology.hl7.org/CodeSystem/testscript-operation-codes	TstSrptOpCde	Test script operation code: This value set defines a set of codes that are used to indicate the supported operations of a testing engine or tool.
+http://terminology.hl7.org/CodeSystem/testscript-profile-destination-types	TstDestTyp	Test script profile destination type: This value set defines a set of codes that are used to indicate the profile type of a test system when acting as the destination within a TestScript.
+http://terminology.hl7.org/CodeSystem/testscript-profile-origin-types	TstOrgnTyp	Test script profile origin type: This value set defines a set of codes that are used to indicate the profile type of a test system when acting as the origin within a TestScript.
+http://terminology.hl7.org/CodeSystem/usage-context-type	UsgContxtTyp	UsageContextType: A code that specifies a type of context being specified by a usage context.
+http://terminology.hl7.org/CodeSystem/validation-process	Val-process	Validation-process: The primary process by which the target is validated
+http://terminology.hl7.org/CodeSystem/validation-status	Val-status	Validation-status: Status of the validation of the target against the primary source
+http://terminology.hl7.org/CodeSystem/validation-type	Val-type	Validation-type: What the target is validated against
+http://terminology.hl7.org/CodeSystem/variant-state	seqStatus	sequenceStatus: Codes providing the status of the variant test result.
+http://terminology.hl7.org/CodeSystem/verificationresult-communication-method	ver-method	VerificationResult Communication Method: Attested information may be validated by process that are manual or automated. For automated processes it may accomplished by the system of record reaching out through another system's API or information may be sent to the system of record. This value set defines a set of codes to describing the process, the how, a resource or data element is validated.
